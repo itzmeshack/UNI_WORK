@@ -1,0 +1,43 @@
+ /* for desktop screens go here */
+
+@media only screen and (min-width: 1024px) {
+    .section{
+        border-bottom: solid;
+      
+    }
+    
+    nav{
+       
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+       
+       
+    }
+    
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 6em;
+        padding: .9em;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+    .logo{
+        width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background-color: rgb(41, 49, 49); /* Adjust color as needed */
+  border-radius: 50%; /* This creates the circle */
+    }
+
+  h1{
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+
+
+}
